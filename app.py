@@ -32,7 +32,7 @@ def analyze():
 
     api_url = (
         f"{VISION_ENDPOINT}/computervision/imageanalysis:analyze"
-        f"?api-version=2023-10-01&features=tags,objects,people"
+        f"?api-version=2023-10-01&features=tags,objects,people,brands"
     )
     headers = {"Ocp-Apim-Subscription-Key": VISION_KEY}
 
